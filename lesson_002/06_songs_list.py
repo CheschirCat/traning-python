@@ -23,7 +23,6 @@ songs_summ = violator_songs_list[3][1] + violator_songs_list[5][1] + violator_so
 
 print('Три песни звучат: ', round(songs_summ, 2) , 'минуты')
 
-..
 
 # Есть словарь песен группы Depeche Mode
 violator_songs_dict = {
