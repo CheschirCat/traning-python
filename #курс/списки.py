@@ -18,6 +18,17 @@ print(my_list)
 # расширение списка
 my_list.extend([5, 5, 5, ])
 print(my_list)
+zoo = ['lion', 'kangaroo', 'elephant', 'monkey', ]
+print(zoo)
+# добавьте птиц из списка birds в последние клетки зоопарка
+birds = ('rooster', 'ostrich', 'lark')
+zoo.extend(birds)
+print(zoo)
+
+# выведите на консоль индкса элемента
+print('лев сидит в клетке ', zoo.index('lion') + 1)
+print('жаворонок сидит в клетке ', zoo.index('lark') + 1)
+
 
 # добавление в конкретное место
 my_list.insert(3, 'aaa')
